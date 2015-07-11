@@ -3,6 +3,9 @@
 This small tool allows to execute selection or the whole file as PHP code in Sublime Text 3.
 The code is executed with local interpreter that must to be preinstalled.
 
+##### Why
+The internal build functionality requires first saving to file, while sometimes it is more convenient to quickly test something in scratch files and close without saving.
+
 By default PHP interpreter is ran with the following command:
 ```
 php -ddisable_functions= -ddisplay_errors=On -derror_reporting=-1 -f <FILENAME>
