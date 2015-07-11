@@ -1,0 +1,5 @@
+{
+	"timeout": 5,
+	"phpCmd": ["php", "-ddisable_functions=", "-ddisplay_errors=On", "-derror_reporting=-1", "-f", "$file"],
+	"resultWnd": {"word_wrap": false, "line_numbers": false, "gutter": false, "scroll_past_end": false}
+}

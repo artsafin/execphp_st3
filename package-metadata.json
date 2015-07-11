@@ -1,0 +1,4 @@
+{
+	"version": "1.0.0",
+	"description": "Execute selection as PHP with local interpreter, without need to save source file first."
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "caption": "Execute as PHP",
+        "command": "exec_php"
+    },
+    {
+        "caption": "Execute as PHP: Default settings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/ExecPhp/ExecPhp.sublime-settings"
+        }
+    },
+    {
+        "caption": "Execute as PHP: User settings",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/ExecPhp.sublime-settings"
+        }
+    }
+]
