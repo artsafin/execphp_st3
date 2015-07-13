@@ -58,6 +58,7 @@ class ExecPhpCommand(sublime_plugin.TextCommand):
 			si.wShowWindow = subprocess.SW_HIDE
 
 		with subprocess.Popen(cmdline,
+							  shell=True,
 							  universal_newlines = True,
 							  stdout = subprocess.PIPE,
 							  stderr = subprocess.PIPE,
